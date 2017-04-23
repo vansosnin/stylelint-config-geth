@@ -1,8 +1,11 @@
 module.exports = {
     'plugins': [
-        'stylelint-scss'
+        'stylelint-scss',
+        'stylelint-csstree-validator'
     ],
     'rules': {
+        'csstree/validator': true,
+
         'at-rule-name-case': 'lower',
         'at-rule-name-space-after': 'always-single-line',
         'at-rule-semicolon-newline-after': 'always',
