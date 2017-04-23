@@ -7,11 +7,10 @@ module.exports = {
         'at-rule-name-space-after': 'always-single-line',
         'at-rule-semicolon-newline-after': 'always',
         'block-closing-brace-empty-line-before': 'never',
-        'block-closing-brace-newline-before': 'always-multi-line',
+        'block-closing-brace-newline-before': 'always',
         'block-closing-brace-space-before': 'always-single-line',
         'block-no-empty': true,
-        'block-no-single-line': true,
-        'block-opening-brace-newline-after': 'always-multi-line',
+        'block-opening-brace-newline-after': 'always',
         'block-opening-brace-space-after': 'always-single-line',
         'block-opening-brace-space-before': 'always',
         'color-hex-case': 'lower',
@@ -35,7 +34,6 @@ module.exports = {
         } ],
         'declaration-bang-space-after': 'never',
         'declaration-bang-space-before': 'always',
-        'declaration-block-no-ignored-properties': true,
         'declaration-block-no-shorthand-property-overrides': true,
         'declaration-block-semicolon-newline-after': 'always-multi-line',
         'declaration-block-semicolon-space-after': 'always-single-line',
@@ -64,7 +62,6 @@ module.exports = {
         'media-feature-colon-space-after': 'always',
         'media-feature-colon-space-before': 'never',
         'media-feature-name-case': 'lower',
-        'media-feature-no-missing-punctuation': true,
         'media-feature-parentheses-space-inside': 'never',
         'media-feature-range-operator-space-after': 'always',
         'media-feature-range-operator-space-before': 'always',
@@ -79,11 +76,8 @@ module.exports = {
         'number-max-precision': 2,
         'number-no-trailing-zeros': true,
         'property-case': 'lower',
-        'rule-nested-empty-line-before': [ 'always-multi-line', {
+        'rule-empty-line-before': [ 'always-multi-line', {
             'except': ['first-nested'],
-            'ignore': ['after-comment']
-        } ],
-        'rule-non-nested-empty-line-before': [ 'always-multi-line', {
             'ignore': ['after-comment']
         } ],
         'selector-attribute-brackets-space-inside': 'never',
