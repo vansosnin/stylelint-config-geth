@@ -1,4 +1,4 @@
-# stylelint-config-geth
+# stylelint-config-geth [NOT SUPPORTED]
 
 [![npm version](https://badge.fury.io/js/stylelint-config-geth.svg)](https://badge.fury.io/js/stylelint-config-geth)
 
